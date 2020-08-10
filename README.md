@@ -27,7 +27,7 @@ The parameters used to predict AQI in this project are -
  
  All of these parameters are easily available on common weather and climate websites (for eg. - https://en.tutiempo.net/ )
  
- Enter the values of these parameters in projext website ( https://airquality-index-predictor.herokuapp.com/ ) and click on pedict to get Air Quality index.
+ Enter the values of these parameters in the **project website ( https://airquality-index-predictor.herokuapp.com/ )** and click on pedict to get Air Quality index.
  
  **ADVANTAGE OF THIS PROJECT IS THAT WE CAN PREDICT THE AIR QUALITY INDEX USING COMMON CLIMATE ATTRIBUTES INSTEAD OF USING AN EXPENSIVE PHYSICAL INSTRUMENT.**
  
@@ -40,9 +40,9 @@ Life cycle of this project can be divided into 3 parts :-
 
 ### Data collection and Data cleaning - 
 
-- For collection of **Independent features** , downloaded HTML pages from https://en.tutiempo.net/ for web scrapping. **(HTML_script.py)**
+- For collection of **Independent features** , downloaded the HTML pages from https://en.tutiempo.net/ for web scrapping. **(HTML_script.py)**
 - For collection of **Dependent featutes**, downloaded csv files of AQI from a 3rd party source(www.weathermap.com) and processed the files to convert them into usuable form. **(PLOT_AQI.py)**
-- Performed **web scrapping** on HTML pages to extract Independent features using BeautifulSoup library. Then prepared the final dataset by combining Independent and Dependent features. Then cleaned the data to get rid of null and invalid values. **(Extract_combine.py)**
+- Performed **web scrapping** on HTML pages to extract Independent features using **BeautifulSoup** library. Then prepared the final dataset by combining Independent and Dependent features. Then cleaned the data to get rid of null and invalid values. **(Extract_combine.py)**
 
 ### Feature Enginnering and Model Building - 
 
