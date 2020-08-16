@@ -41,7 +41,7 @@ Life cycle of this project can be divided into 3 parts :-
 ### Data collection and Data cleaning - 
 
 - For collection of **Independent features** , downloaded the HTML pages from https://en.tutiempo.net/ for web scrapping. **(HTML_script.py)**
-- For collection of **Dependent featutes**, downloaded csv files of AQI from a 3rd party source(www.weathermap.com) and processed the files to convert them into usuable form. **(PLOT_AQI.py)**
+- For collection of **Dependent features**, downloaded csv files of AQI from a 3rd party source(www.weathermap.com) and processed the files to convert them into usuable form. **(PLOT_AQI.py)**
 - Performed **web scrapping** on HTML pages to extract Independent features using **BeautifulSoup** library. Then prepared the final dataset by combining Independent and Dependent features. Then cleaned the data to get rid of null and invalid values. **(Extract_combine.py)**
 
 ### Feature Enginnering and Model Building - 
